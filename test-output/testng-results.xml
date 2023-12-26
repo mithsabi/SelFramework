@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-17T01:02:42 IST" name="DemoBank" finished-at="2023-12-17T01:02:51 IST" duration-ms="8830">
+    <groups>
+    </groups>
+    <test started-at="2023-12-17T01:02:42 IST" name="Cards" finished-at="2023-12-17T01:02:51 IST" duration-ms="8830">
+      <class name="SelPackage.SL_LP1">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:SelPackage.SL_LP1@2f217633]" started-at="2023-12-17T01:02:42 IST" name="LaunchBrowser" finished-at="2023-12-17T01:02:48 IST" duration-ms="5737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="LoginTest()[pri:0, instance:SelPackage.SL_LP1@2f217633]" started-at="2023-12-17T01:02:48 IST" name="LoginTest" finished-at="2023-12-17T01:02:49 IST" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method signature="InvPage()[pri:0, instance:SelPackage.SL_LP1@2f217633]" started-at="2023-12-17T01:02:49 IST" name="InvPage" finished-at="2023-12-17T01:02:49 IST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvPage -->
+        <test-method signature="CartPage()[pri:0, instance:SelPackage.SL_LP1@2f217633]" started-at="2023-12-17T01:02:49 IST" name="CartPage" finished-at="2023-12-17T01:02:49 IST" depends-on-methods="SelPackage.SL_LP1.InvPage" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartPage -->
+        <test-method signature="ChkoutPage()[pri:0, instance:SelPackage.SL_LP1@2f217633]" started-at="2023-12-17T01:02:49 IST" name="ChkoutPage" finished-at="2023-12-17T01:02:50 IST" depends-on-methods="SelPackage.SL_LP1.CartPage" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChkoutPage -->
+        <test-method signature="ReviewPage()[pri:0, instance:SelPackage.SL_LP1@2f217633]" started-at="2023-12-17T01:02:50 IST" name="ReviewPage" finished-at="2023-12-17T01:02:50 IST" depends-on-methods="SelPackage.SL_LP1.ChkoutPage" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReviewPage -->
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:SelPackage.SL_LP1@2f217633]" started-at="2023-12-17T01:02:50 IST" name="CloseApp" finished-at="2023-12-17T01:02:51 IST" duration-ms="1105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- SelPackage.SL_LP1 -->
+    </test> <!-- Cards -->
+  </suite> <!-- DemoBank -->
+</testng-results>

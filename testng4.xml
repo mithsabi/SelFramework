@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoBank">
+  <test name="SmokeTest">
+	  <groups>
+		  <run>
+			  <include name="Smoke"></include>
+		  </run>
+	  </groups>
+    <classes>
+	
+	  <class name="TestNG.Bank_Cards"/>
+      <class name="TestNG.TestNG_Demo"/>
+      <class name="TestNG.Bank_Loans"/>  
+       </classes>
+  </test>
+</suite> <!-- DemoBank -->
